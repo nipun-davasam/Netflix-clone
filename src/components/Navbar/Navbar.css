@@ -76,3 +76,6 @@
 .navbar-right .profiles:hover .profile-dropdown{
     display: block;
 }
+.navbar{
+  background:#141414 ;
+}
