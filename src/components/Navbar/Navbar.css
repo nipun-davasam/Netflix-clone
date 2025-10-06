@@ -34,48 +34,48 @@
   cursor: pointer;
 }
 
-.navbar-right{
-    display: flex;
-    gap: 20px;
-    align-items: center;
+.navbar-right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
-.navbar-right .icon{
-    width: 20px;
-    cursor: pointer;
+.navbar-right .icon {
+  width: 20px;
+  cursor: pointer;
 }
 
-.navbar-right .profile{
-    border-radius: 5px;
-    width: 30px;
+.navbar-right .profile {
+  border-radius: 5px;
+  width: 30px;
 }
-.navbar-right .profiles{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    cursor: pointer;
-    position: relative;
+.navbar-right .profiles {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  position: relative;
 }
-.navbar-right .profile-dropdown{
-    position: absolute;
-    right: 0;
-    top:100%;
-    width: max-content;
-    background: #191919;
-    padding: 18px 22px;
-    text-decoration: underline;
-    border-radius: 5px;
-    z-index: 1;
-    display: none;
-}
-
-.navbar-right .profile-dropdown p{
-    font-size: 15px;
+.navbar-right .profile-dropdown {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  width: max-content;
+  background: #191919;
+  padding: 18px 22px;
+  text-decoration: underline;
+  border-radius: 5px;
+  z-index: 1;
+  display: none;
 }
 
-.navbar-right .profiles:hover .profile-dropdown{
-    display: block;
+.navbar-right .profile-dropdown p {
+  font-size: 15px;
 }
-.navbar{
-  background:#141414 ;
+
+.navbar-right .profiles:hover .profile-dropdown {
+  display: block;
+}
+.navbar {
+  background: #141414;
 }
